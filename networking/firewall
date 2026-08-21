@@ -1,1 +1,12 @@
+# Fedora Firewall
 
+## Overview
+
+Fedora's firewall configuration was investigated while deploying local services and troubleshooting network connectivity.
+
+## Tools
+
+The primary firewall management tool used was:
+
+```bash
+firewall-cmd
