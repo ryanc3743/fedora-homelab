@@ -1,1 +1,25 @@
+# Pi-hole Deployment
 
+## Objective
+
+Deploy Pi-hole as a containerized DNS service on the Fedora homelab.
+
+## Deployment
+
+Pi-hole was deployed using Docker Compose.
+
+The deployment included configuration for:
+
+- DNS
+- Web administration
+- Container networking
+- Persistent configuration
+- Host port mappings
+
+## Validation
+
+The deployment was validated by checking:
+
+```bash
+docker ps
+docker logs <pihole-container>
