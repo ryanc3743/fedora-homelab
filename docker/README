@@ -1,1 +1,39 @@
+# Docker Environment
 
+## Overview
+
+Docker was installed and configured on the Fedora workstation to provide a platform for running self-hosted services.
+
+## Objectives
+
+- Learn container fundamentals
+- Deploy services using Docker Compose
+- Understand port mappings
+- Understand container networking
+- Troubleshoot interactions between Docker, DNS, and the host firewall
+
+## Docker Configuration
+
+Docker Compose was used to define and manage multi-configuration service deployments.
+
+The environment included Pi-hole as a primary self-hosted service.
+
+## Troubleshooting Areas
+
+The deployment required investigation of:
+
+- Container status
+- Port mappings
+- DNS ports
+- Web service ports
+- Docker networking
+- Host firewall configuration
+- Container logs
+
+Useful commands included:
+
+```bash
+docker ps
+docker logs <container>
+docker inspect <container>
+docker compose ps
