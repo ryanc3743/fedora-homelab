@@ -1,1 +1,18 @@
+# NetworkManager Configuration & Troubleshooting
 
+## Overview
+
+Fedora uses NetworkManager to manage network connections.
+
+This project provided practical experience configuring and troubleshooting Wi-Fi networking through the command line.
+
+## Tools
+
+The primary tool used was `nmcli`.
+
+Examples of information investigated included:
+
+```bash
+nmcli device status
+nmcli connection show
+nmcli connection show "<connection>"
