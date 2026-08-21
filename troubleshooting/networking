@@ -1,1 +1,21 @@
+# Networking Troubleshooting Case Studies
+
+This document contains troubleshooting cases encountered while configuring Fedora as a homelab platform.
+
+## Case 1 — Wi-Fi / Network Configuration
+
+### Symptoms
+
+[Describe what wasn't working.]
+
+### Initial Hypothesis
+
+[What did you initially think was wrong?]
+
+### Investigation
+
+Commands and observations:
+
+```bash
+[actual commands]
 
