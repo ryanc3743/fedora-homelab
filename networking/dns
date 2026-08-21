@@ -1,1 +1,12 @@
+# DNS Troubleshooting
 
+## Overview
+
+DNS was investigated as part of configuring the Fedora system and deploying self-hosted services.
+
+## Diagnostic Tools
+
+The following commands were used to inspect DNS behavior:
+
+```bash
+resolvectl status
